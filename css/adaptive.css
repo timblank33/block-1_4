@@ -1,0 +1,16 @@
+@media (min-width: 360px) {
+    .gamburger{
+        width: 320px;
+    }
+}
+@media (min-height: 768px) {
+    .gamburger__nav-link{
+        padding: 16px 0;;
+    }
+    .gamburger__nav-links{
+        margin-top: 34px;
+    }
+    .gamburger__nav-footer-number{
+        margin-bottom: 40px;
+    }
+}

@@ -1,0 +1,126 @@
+@font-face {
+    font-family: "TT Lakes Bold";
+    src: url("../fonts/TTLakes-Bold.ttf");
+}
+@font-face {
+    font-family: "TT Lakes Regular";
+    src: url("../fonts/TTLakes-Regular.ttf");
+}
+@font-face {
+    font-family: "TT Lakes Medium";
+    src: url("../fonts/TTLakes-Medium.ttf");
+}
+p, h1, h2, button{
+    margin: 0;
+    padding: 0;
+}
+.gamburger{
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+    box-shadow: 16px 0 52px rgba(14, 24, 80, 0.2);
+}
+.gamburger__nav{
+    padding: 24px 19px;
+    padding-bottom: 0;
+}
+.gamburger__nav-header{
+    display: flex;
+    align-items: center;
+}
+.gamburger__nav-header--hover--scale{
+    cursor: pointer;
+    transition: transform .3s;
+}
+.gamburger__nav-header--hover--scale:hover{
+    transform: scale(1.1);
+}
+.gamburger__nav-header-close{
+    margin-right: 16px;
+}
+.gamburger__nav-header-search{
+    margin-left: auto;
+}
+.gamburger__nav-links{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 25px;
+}
+.gamburger__nav-links--font-style{
+    font-family: "TT Lakes Medium";
+    font-size: 15px;
+    line-height: 24px;
+}
+.gamburger__nav-link{
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+    transition: .3s ease-in;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.gamburger__nav-links-active{
+    color:#7E7E82;
+}
+.gamburger__nav-link:hover {
+    background-color: #ff4;
+    padding-left: 20px;
+}
+.gamburger__nav-links-active::before{
+    content:'';
+    position: absolute;
+    vertical-align: middle;
+    left: 0;
+    height: 2em;
+    border-left: 4px solid #41F6D7;
+    border-radius: 0 50px 50px 0;
+}
+.gamburger__nav-footer{
+    position: absolute;
+    bottom:32px;
+    max-height: 500px;
+}
+.gamburger__nav-footer-image-phone--hover--scale{
+    margin-right: 16px;
+    margin-bottom: 16px; 
+    transition: transform .3s ease-in,
+                box-shadow .4s linear;
+    transform: scale(1);
+    cursor: pointer;
+    border-radius: 50%;
+}
+.gamburger__nav-footer-image-phone--hover--scale:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 5px rgba(0,0,0,.3);
+    
+}
+.gamburger__nav-footer-mail{
+    font-family: "TT Lakes Medium";
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+.gamburger__nav-footer-number{
+    font-family: "TT Lakes Bold";
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+.gamburger__nav-footer-lang-button{
+    font-family: "TT Lakes Medium";
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    line-height: 24px;
+    transition: color .3s ease;
+}
+.gamburger__nav-footer-lang-button-active{
+    color: #7E7E82;
+}
+.gamburger__nav-footer-lang-button:hover{
+    color: #7E7E82
+}
