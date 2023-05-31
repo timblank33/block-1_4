@@ -23,7 +23,7 @@ p, h1, h2, button{
 }
 .gamburger__nav{
     box-sizing: border-box;
-    padding: 24px 19px;
+    padding: 24px;
     padding-bottom: 0;
     height: 100%;
     display: flex;
@@ -109,6 +109,7 @@ p, h1, h2, button{
 }
 .gamburger__nav-footer-number{
     font-family: "TT Lakes Bold";
+    text-decoration: none;
     color: #000;
     font-size: 24px;
     margin-bottom: 8px;
@@ -117,6 +118,8 @@ p, h1, h2, button{
     font-family: "TT Lakes Medium";
     background-color: transparent;
     user-select: none;
+    text-decoration: none;
+    color: #000;
     border: none;
     font-size: 16px;
     margin: 0;

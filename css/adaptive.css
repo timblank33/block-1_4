@@ -1,3 +1,8 @@
+@media (max-width: 320px) {
+    .gamburger__nav{
+        padding: 24px 16px;
+    }
+}
 @media (min-width: 360px) {
     .gamburger{
         width: 320px;
